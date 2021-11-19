@@ -570,7 +570,7 @@
 						<!-- HERO REGISTER FORM -->
 						<div class="col-md-5">
 							<div id="register-form">
-								<form name="registerForm" class="row register-form">
+								<form method="POST" name="registerForm" class="row register-form">
 
                                     <!-- Form Input -->
 					                <div id="input-name" class="col-md-12">
@@ -592,7 +592,9 @@
 
 					                <!-- Form Button -->
 					                <div class="col-md-12 form-btn">  
-					                	<button type="submit" class="btn btn-md btn-rose tra-black-hover submit">Register Now</button> 
+					                	<button type="submit" class="btn btn-md btn-rose tra-black-hover submit">
+											Register Now
+										</button> 
 					                </div>
 					                                                              
 					                <!-- Form Message -->
@@ -955,6 +957,7 @@
 			</section>	<!-- End ABOUT-4 --> 
 						<!-- HERO-9
 			============================================= -->	
+			
 			<section id="hero-9" class="bg-scroll hero-section division">
 				<div class="container">
 					<div class="row d-flex align-items-center">
@@ -978,34 +981,42 @@
 
 						<!-- HERO REGISTER FORM -->
 						<div class="col-md-5">
-							<div id="register-form">
-								<form name="registerForm" class="row register-form">
+							<div id="scholarship-form">
+								<form method="POST" name="scholarshipForm" class="row" action="php/scholarship.php">
 
                                     <!-- Form Input -->
 					                <div id="input-name" class="col-md-12">
 					                	<p>Your Name*</p>
-					                	<input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required> 
+					                	<input type="text" name="name1" class="form-control name" placeholder="Enter Your Name*" required> 
 					                </div>
 					                     
 					                <!-- Form Input -->       
 					                <div id="input-email" class="col-md-12">
 					                	<p>Your Email*</p>
-					                	<input type="email" name="email" class="form-control email" placeholder="Enter Your Email*" required> 
+					                	<input type="email" name="email1" class="form-control email" placeholder="Enter Your Email*" required> 
 					                </div>
 
 									<!-- Form Input -->
 					                <div id="input-phone" class="col-md-12">
 					                	<p>Your Phone Number*</p>
-					                	<input type="tel" name="phone" class="form-control phone" placeholder="Enter Your Phone Number*" required> 
+					                	<input type="tel" name="phone1" class="form-control phone" placeholder="Enter Your Phone Number*" required> 
 					                </div>	
+
+									<!-- Form Input -->
+					                <div id="input-course" class="col-md-12">
+					                	<p>Your Course Name*</p>
+					                	<input type="text" name="course1" class="form-control course" placeholder="Enter Your Course Name*" required> 
+					                </div>
 
 					                <!-- Form Button -->
 					                <div class="col-md-12 form-btn">  
-					                	<button type="submit" class="btn btn-md btn-rose tra-black-hover submit">Apply Now</button> 
+					                	<button type="submit" class="btn btn-md btn-rose tra-black-hover submit">
+											Apply Now
+										</button> 
 					                </div>
 					                                                              
 					                <!-- Form Message -->
-					                <div class="col-md-12 register-form-msg text-center">
+					                <div class="col-md-12 scholarship-form-msg text-center">
 					                	<span class="loading"></span>
 					                </div>  
 					                                              

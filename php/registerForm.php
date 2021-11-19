@@ -1,25 +1,18 @@
-<?
-$name  = $_REQUEST["name"];
-$email = $_REQUEST["email"];
-$phone   = $_REQUEST["phone"];
-$to    = "you@yourdomain.com"; // ENTER YOUR EMAIL ADDRESS
-if (isset($email) && isset($name) && isset($phone)) {
-    $email_subject = "$name sent you a message via YOUR SITE NAME"; // ENTER YOUR EMAIL SUBJECT
-		$headers = "MIME-Version: 1.0" . "\r\n";
-$headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
-$headers .= "From: ".$name." <".$email.">\r\n"."Reply-To: ".$email."\r\n" ;
-$msg     = "From: $name<br/> Email: $email <br/> Phone: $phone";
-	
-   $mail =  mail($to, $email_subject, $msg, $headers);
-  if($mail)
-	{
-		echo 'success';
-	}
+<?php 
 
-else
-	{
-		echo 'failed';
-	}
-}
+$email=$_GET['email'];
+$name=$_GET['name'];
+$phone=$_GET['phone'];
 
-?>
+ 			$to_email = "omjadhav963@gmail.com";
+			$subject = "Your New credentials for";
+			$body = "Your username is : ".$email."\n"."Your name is :".$name."\n"."Phone : ".$phone;
+			if (mail($to_email, $subject, $body)) {
+			    //echo "Email successfully sent to $to_email...";
+             echo "<script>alert('Email successfully sent to $to_email');</script>";
+			} 
+			else {
+			     echo "<script>alert('Email Not Exists...');</script>";
+
+			}
+ ?>

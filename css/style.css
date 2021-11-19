@@ -4930,19 +4930,77 @@ ul.features li.disabled-option {
   color: #999;
 }
 
+/*------------------------------------------*/
+/*  BANNER REGISTER FORM
+/*------------------------------------------*/
+
+#scholarship-form {
+  position: relative !important;
+  z-index: 999 !important;
+  background-color: #fff !important;
+  border: 1px solid #f5f5f5 !important;
+  padding: 45px 30px 30px !important;
+  margin: 0 15px 40px !important;
+  -webkit-border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
+  border-radius: 6px !important;
+}
+
+#scholarship-form p {
+  color: #333 !important;
+  font-size: 17px !important;
+  line-height: 1 !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+  padding-left: 5px !important;
+}
+
+/*------------------------------------------*/
+/*  REGISTER FORM INPUT
+/*------------------------------------------*/
+
+#scholarship-form .form-control {
+  border: 1px solid #ccc !important;
+  height: 52px !important;
+  color: #333 !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  margin-bottom: 22px !important;
+  -webkit-transition: all 400ms ease-in-out !important;
+  -moz-transition: all 400ms ease-in-out !important;
+  -o-transition: all 400ms ease-in-out !important;
+  -ms-transition: all 400ms ease-in-out !important;
+  transition: all 400ms ease-in-out !important;
+}
+
+/*------------------------------------------*/
+/*  Register Form Placeholder
+/*------------------------------------------*/
+
+.scholarship-form .form-control::-moz-placeholder {
+  color: #999 !important;
+}
+
+.scholarship-form .form-control:-ms-input-placeholder {
+  color: #999 !important;
+}
+
+.scholarship-form .form-control::-webkit-input-placeholder {
+  color: #999 !important;
+}
 
 /*------------------------------------------*/
 /*  Register Form Message
 /*------------------------------------------*/
 
-.register-form-msg {
+.scholarship-form-msg {
   width: 100% !important;
-  display: block;
-  text-align: center;
-  margin-top: 15px;
+  display: block !important;
+  text-align: center !important;
+  margin-top: 15px !important;
 }
 
-.register-form .loading {
+.scholarship-form .loading {
   color: #00b2e4;
   font-size: 18px;
   font-family: 'Muli', sans-serif;
