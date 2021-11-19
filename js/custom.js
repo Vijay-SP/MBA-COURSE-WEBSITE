@@ -108,7 +108,7 @@
 			}
 
 			// Minium CSS to make the magic happen
-			$(scrollId).css({'display':'none','position': 'fixed','z-index': '99999'});
+			$(scrollId).css({'display':'none','position': 'fixed','z-index': '99999','margin-bottom': '7%',});
 
 			// Active point overlay
 			if (o.activeOverlay) {
@@ -145,7 +145,7 @@
 		/*	Countdown
 		/*----------------------------------------------------*/
 		
-		$("#clock").countdown("2020/11/20 09:00:00", function(event) {
+		$("#clock").countdown("2021/11/20 09:00:00", function(event) {
 			$(this).html( event.strftime(''  
 				+ '<div class="cbox clearfix"><span class="cbox-digit">%D</span> <span class="cbox-txt">d</span></div>'
 				+ '<div class="cbox clearfix"><span class="cbox-digit">%H</span> <span class="cbox-txt">h</span></div>'
@@ -153,8 +153,7 @@
 				+ '<div class="cbox clearfix"><span class="cbox-digit">%S</span> <span class="cbox-txt">s</span></div>'
 			));
 		});
-
-
+		
 		/*----------------------------------------------------*/
 		/*	Tabs #1
 		/*----------------------------------------------------*/
