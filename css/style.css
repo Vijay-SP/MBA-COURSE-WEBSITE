@@ -789,7 +789,8 @@ body {
 }
 
 .bg-01 {
-  background-image: url(../images/BG0-003.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/BG0-003.jpg);
+  
 }
 
 .bg-map {
@@ -2563,7 +2564,7 @@ li>.lang-select {
 }
 
 #hero-9 {
-  background-image: url(../images/BG-2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/BG-2.jpg);
   padding-top: 180px;
   padding-bottom: 50px;
 }

@@ -108,7 +108,7 @@
 			}
 
 			// Minium CSS to make the magic happen
-			$(scrollId).css({'display':'none','position': 'fixed','z-index': '99999','margin-bottom': '7%',});
+			$(scrollId).css({'display':'none','position': 'fixed','z-index': '99999','margin-bottom': '5%',});
 
 			// Active point overlay
 			if (o.activeOverlay) {
