@@ -6959,3 +6959,14 @@ p.download-file i {
 nav a#pull {
   display: none;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d63e57;
+  border-radius: 50rem;
+
+}
