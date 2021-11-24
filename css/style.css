@@ -790,7 +790,7 @@ body {
 }
 
 .bg-01 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/BG0-003.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/GQBG.jpg);
   
 }
 
@@ -2541,7 +2541,7 @@ li>.lang-select {
 }
 
 #hero-3 {
-  background-image: url(../images/BG-1.jpg);
+  background-image: url(../images/MBA.gif);
   padding-top: 190px;
   padding-bottom: 240px;
 }
@@ -2565,7 +2565,7 @@ li>.lang-select {
 }
 
 #hero-9 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/BG-2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/LFBG.jpg);
   padding-top: 180px;
   padding-bottom: 50px;
 }
