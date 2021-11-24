@@ -791,7 +791,7 @@ body {
 
 .bg-01 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/GQBG.jpg);
-  
+
 }
 
 .bg-map {
@@ -6971,4 +6971,21 @@ nav a#pull {
   background: #d63e57;
   border-radius: 50rem;
 
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #d63e57;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.my-float {
+  margin-top: 20px;
 }
