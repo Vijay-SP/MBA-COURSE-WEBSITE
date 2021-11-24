@@ -1,6 +1,6 @@
 <?php
-$message_content = 'Dear customer, driver Tanveer';
-$url = 'http://mysmsshop.in/http-api.php?username=enterusername&password=enterpassword&senderid=6char-senderid&route=1&number=enternumber&message='.urlencode($message_content).''; 
+$message_content = 'Dear customer, i am the boss';
+$url = 'http://mysmsshop.in/http-api.php?username=agixinternational&password=Navi$$555&senderid=SMSUSE&route=1&number=8652486718&message='.urlencode($message_content).''; 
 sendSMS($url);
 
 function sendSMS($fields) {
