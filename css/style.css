@@ -1208,13 +1208,14 @@ ul.ico-list li i {
   border-color: #ff6d33;
 }
 
-.btn-tra-rose,
-.scroll .btn-tra-rose,
-.white-color .btn-tra-rose {
-  color: #ff1f59 !important;
+.btn-tra-orange,
+.scroll .btn-tra-orange,
+.white-color .btn-tra-orange {
+  color: #ff6d33 !important;
   background-color: transparent;
-  border-color: #ff1f59;
+  border-color: #ff6d33;
 }
+
 
 .btn-rose,
 .scroll .btn-rose,
@@ -2540,7 +2541,7 @@ li>.lang-select {
 }
 
 #hero-3 {
-  background-image: url(../images/MBA.gif);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/MBA.gif);
   padding-top: 190px;
   padding-bottom: 240px;
 }
@@ -2565,7 +2566,7 @@ li>.lang-select {
 
 #hero-9 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/LFBG.jpg);
-  padding-top: 180px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -2887,7 +2888,7 @@ li>.lang-select {
   background-color: #fff;
   padding: 45px 40px 15px;
   border: 1px solid #f5f5f5;
-  margin-top: -130px;
+  margin-top: -270px;
   z-index: 999;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -6967,7 +6968,7 @@ nav a#pull {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #d63e57;
+  background: #ff6d33;
   border-radius: 50rem;
 
 }
