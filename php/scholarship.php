@@ -1,6 +1,6 @@
 <?php 
 $errors = '';
-$myemail = 'omjadhav963@gmail.com';
+$myemail = 'mailbox4lw@gmail.com';
 if(empty($_POST['name1'])  ||
    empty($_POST['email1']) ||
    empty($_POST['phone1']) ||
@@ -18,7 +18,7 @@ $email_address))
 {
     $errors .= "\n Error: Invalid email address";
 }
-$to_email = "omjadhav963@gmail.com";
+$to_email = "mailbox4lw@gmail.com";
 $subject = "New Application for Scholarship";
 $body = "Email is : ".$email_address."\n"."Name is :".$name."\n"."Phone is : ".$phone. "\n"."Course is :".$course;
 if (mail($to_email, $subject, $body)) {
