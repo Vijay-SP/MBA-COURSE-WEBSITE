@@ -9,8 +9,6 @@
 */
 
 
-
-
 /* ==========================================================================
   01. GENERAL & BASIC STYLES
   =========================================================================== */
@@ -22,9 +20,9 @@ html {
 }
 
 body {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   color: #283034;
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 
 
