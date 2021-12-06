@@ -6980,6 +6980,7 @@ nav a#pull {
   height: 60px;
   bottom: 40px;
   right: 40px;
+  z-index: 1200;
   background-color: #ff6d33;
   color: #FFF;
   border-radius: 50px;
@@ -6989,4 +6990,9 @@ nav a#pull {
 
 .my-float {
   margin-top: 20px;
+}
+@media only screen and (max-width: 420px) {
+  .division>.container{
+margin-left: 0 !important;
+  }
 }
