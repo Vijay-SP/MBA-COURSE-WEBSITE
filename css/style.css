@@ -2543,7 +2543,7 @@ li>.lang-select {
 #hero-3 {
   background-image: url(../images/OP1.jpg);
   padding-top: 10px;
-  padding-bottom: 110px;
+  padding-bottom: 160px;
   margin-top: 7%;
 }
 
@@ -6991,8 +6991,9 @@ nav a#pull {
 .my-float {
   margin-top: 20px;
 }
+
 @media only screen and (max-width: 420px) {
-  .division>.container{
-margin-left: 0 !important;
+  .division>.container {
+    margin-left: 0 !important;
   }
 }
