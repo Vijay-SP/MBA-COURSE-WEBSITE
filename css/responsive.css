@@ -1404,6 +1404,10 @@
     font-size: 1.7rem;
   }
 
+  .jam3 {
+    margin-left: 10%;
+  }
+
   .section-title p {
     font-size: 1rem;
     padding-right: 10%;
@@ -2878,6 +2882,10 @@
   .wsanimated-arrow span:before {
     top: -8px;
     width: 26px;
+  }
+
+  .jam3 {
+    margin-left: 8% !important;
   }
 
   .wsanimated-arrow span:after {
