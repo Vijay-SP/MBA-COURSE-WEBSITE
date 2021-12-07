@@ -2117,7 +2117,7 @@ span.countdown-txt {
   height: 19px;
   display: inline-block;
   border-radius: 50%;
-  background: rgb(0, 179, 213);
+  background: #ff6d33;
 }
 
 .cssload-loading i:first-child {
