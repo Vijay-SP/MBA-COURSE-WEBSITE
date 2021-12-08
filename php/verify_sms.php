@@ -31,7 +31,7 @@ $otp = base64_decode($otp);
 						$("#btn").on("click",function() {
 							var otp = $("#otp").val();
 							if(otp == <?php echo $otp; ?>) {
-								
+								<?php header("location:registerForm.php?name=".$_GET['name']."&email=".$_GET['email']."&phone=".$_GET['phone']."&course=".$_GET['course']."&course-type=".$_GET['course-type']); ?>
 							}
 							else {
 								alert("Otp dont match");
