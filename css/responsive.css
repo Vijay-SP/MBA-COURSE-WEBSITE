@@ -2765,6 +2765,7 @@
 
 @media (max-width: 767px) {
 
+
   /*------------------------------------------*/
   /*   BASE
   /*------------------------------------------*/
@@ -2922,6 +2923,10 @@
     background: transparent;
   }
 
+  #res {
+    margin-left: 0 !important;
+  }
+
   .wsmenu>.wsmenu-list>li>a {
     font-size: 18px;
     padding: 5px 32px 5px 18px;
@@ -3015,13 +3020,14 @@
     margin-top: 80px;
   }
 
-  .headest #hero-3{
+  .headest #hero-3 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/OP3.jpg) !important;
   }
 
-  .otp #otpbox{
+  .otp #otpbox {
     margin-left: 0% !important;
   }
+
   /*------------------------------------------*/
   /*   CONTENT
   /*------------------------------------------*/
