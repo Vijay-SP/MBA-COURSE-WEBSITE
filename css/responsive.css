@@ -3018,6 +3018,10 @@
   .headest #hero-3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/OP3.jpg) !important;
   }
+
+  .otp #otpbox{
+    margin-left: 0% !important;
+  }
   /*------------------------------------------*/
   /*   CONTENT
   /*------------------------------------------*/
