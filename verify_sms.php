@@ -6,6 +6,8 @@ $email_address = $_GET['email'];
 $course = $_GET['course'];
 $course_type = $_GET['course-type'];
 $mobile_number = $_GET['phone'];
+$city = $_GET['city'];
+$state = $_GET['state'];
 ?>
 <html>
 
@@ -145,7 +147,7 @@ $mobile_number = $_GET['phone'];
 			var otp = $("#otp").val();
 			if (otp == <?php echo $otp; ?>) {
 				var url =
-					"registerForm.php?name=<?php echo $name; ?>&email=<?php echo $email_address; ?>&phone=<?php echo $mobile_number; ?>&course=<?php echo $course; ?>&course-type=<?php echo $course_type; ?>";
+					"registerForm.php?name=<?php echo $name; ?>&email=<?php echo $email_address; ?>&phone=<?php echo $mobile_number; ?>&course=<?php echo $course; ?>&course-type=<?php echo $course_type; ?>&city=<?php echo $city; ?>&state=<?php echo $state; ?>";
 				window.location.href = url, true;
 			} else {
 				alert("Enter Valid OTP");
