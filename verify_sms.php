@@ -7,7 +7,6 @@ $course = $_GET['course'];
 $course_type = $_GET['course-type'];
 $mobile_number = $_GET['phone'];
 $city = $_GET['city'];
-$state = $_GET['state'];
 ?>
 <html>
 

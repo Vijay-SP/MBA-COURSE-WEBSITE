@@ -17,5 +17,5 @@ function sendSMS($fields)
 	curl_setopt($res, CURLOPT_RETURNTRANSFER, true);
 	$result = curl_exec($res);
 	$newotp = base64_encode($_SESSION['__OTP']);
-	header("location:verify_sms.php?pwd=" . $newotp . "&name=" . $_POST['name'] . "&email=" . $_POST['email'] . "&phone=" . $_POST['phone'] . "&course=" . $_POST['course'] . "&course-type=" . $_POST['course-type'] . "&city=" . $_POST['city'] . "&state=" . $_POST['state']);
+	header("location:verify_sms.php?pwd=" . $newotp . "&name=" . $_POST['name'] . "&email=" . $_POST['email'] . "&phone=" . $_POST['phone'] . "&course=" . $_POST['course'] . "&course-type=" . $_POST['course-type'] . "&city=" . $_POST['city']);
 }
