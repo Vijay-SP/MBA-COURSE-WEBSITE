@@ -147,7 +147,7 @@ $state = $_GET['state'];
 			var otp = $("#otp").val();
 			if (otp == <?php echo $otp; ?>) {
 				var url =
-					"registerForm.php?name=<?php echo $name; ?>&email=<?php echo $email_address; ?>&phone=<?php echo $mobile_number; ?>&course=<?php echo $course; ?>&course-type=<?php echo $course_type; ?>&city=<?php echo $city; ?>&state=<?php echo $state; ?>";
+					"registerForm.php?name=<?php echo $name; ?>&email=<?php echo $email_address; ?>&phone=<?php echo $mobile_number; ?>&course=<?php echo $course; ?>&course-type=<?php echo $course_type; ?>&city=<?php echo $city; ?>";
 				window.location.href = url, true;
 			} else {
 				alert("Enter Valid OTP");
