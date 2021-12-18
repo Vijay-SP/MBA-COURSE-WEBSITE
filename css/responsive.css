@@ -2765,6 +2765,18 @@
 
 @media (max-width: 767px) {
 
+  #ow2 {
+    margin-left: 0;
+  }
+
+  .division>.container {
+    margin-left: 0 !important;
+  }
+
+  .slyimg {
+    height: 140px !important;
+    width: 140px !important;
+  }
 
   /*------------------------------------------*/
   /*   BASE
@@ -3068,6 +3080,15 @@
   /*------------------------------------------*/
   /*   BASE
   /*------------------------------------------*/
+
+  .division>.container {
+    margin-left: 0 !important;
+  }
+
+  .slyimg {
+    height: 100px !important;
+    width: 60px !important;
+  }
 
   .wide-100 {
     padding-top: 80px;
