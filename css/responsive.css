@@ -2769,6 +2769,14 @@
     margin-left: 0;
   }
 
+  .resbtn {
+    width: 40%;
+    height: 10%;
+    padding: 10px 4px !important;
+    text-align: center;
+    font-size: small;
+  }
+
   .division>.container {
     margin-left: 0 !important;
   }
