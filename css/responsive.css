@@ -2784,6 +2784,7 @@
   .slyimg {
     height: 140px !important;
     width: 140px !important;
+    margin-left: 25%  !important;
   }
 
   /*------------------------------------------*/
